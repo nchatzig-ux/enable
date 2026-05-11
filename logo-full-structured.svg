@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="520" height="200">
+  <!-- Enable Full Logo - Structured with Playful Twist Typography -->
+  
+  <!-- Able Mascot (scaled down) -->
+  <g transform="translate(10, 15) scale(0.85)">
+    <!-- Main body -->
+    <path d="M60 140 C30 130, 20 95, 40 65 C55 40, 90 30, 120 35 C150 40, 175 60, 170 90 C167 110, 155 130, 140 145 C120 162, 80 155, 60 140 Z" 
+          fill="#48BFE3" />
+    
+    <!-- Movement trails -->
+    <path d="M35 105 C20 100, 15 85, 25 72 C30 65, 28 75, 22 82 C16 92, 20 100, 35 105 Z" 
+          fill="#72EFDD" opacity="0.7" />
+    <path d="M28 120 C18 118, 14 110, 18 102 C20 98, 19 105, 16 109 C13 114, 16 118, 28 120 Z" 
+          fill="#80FFDB" opacity="0.5" />
+    
+    <!-- Left eye -->
+    <ellipse cx="90" cy="82" rx="10" ry="12" fill="white" />
+    <ellipse cx="92" cy="84" rx="5" ry="6" fill="#5E60CE" />
+    <circle cx="94" cy="81" r="2" fill="white" />
+    
+    <!-- Right eye -->
+    <ellipse cx="130" cy="78" rx="10" ry="12" fill="white" />
+    <ellipse cx="132" cy="80" rx="5" ry="6" fill="#5E60CE" />
+    <circle cx="134" cy="77" r="2" fill="white" />
+    
+    <!-- Smile -->
+    <path d="M95 108 C105 120, 125 120, 135 108" 
+          fill="none" stroke="#5E60CE" stroke-width="3.5" stroke-linecap="round" />
+    
+    <!-- Wave hand -->
+    <path d="M160 60 C165 50, 172 48, 176 52 C180 56, 178 64, 172 68 C168 71, 163 68, 160 60 Z" 
+          fill="#56CFE1" />
+    
+    <!-- Speech dots -->
+    <circle cx="175" cy="42" r="4" fill="#72EFDD" />
+    <circle cx="182" cy="34" r="3" fill="#80FFDB" />
+    <circle cx="186" cy="25" r="2.5" fill="#80FFDB" opacity="0.7" />
+  </g>
+  
+  <!-- "Enable" wordmark - Structured/Bold with Playful Twist -->
+  <!-- Clean geometric sans-serif with slight rotation on letters and bold weight -->
+  <g transform="translate(195, 55)">
+    <!-- E - bold structured, slight tilt -->
+    <g transform="rotate(-2, 25, 45)">
+      <rect x="5" y="8" width="12" height="72" rx="2" fill="#5390D9" />
+      <rect x="5" y="8" width="42" height="12" rx="2" fill="#5390D9" />
+      <rect x="5" y="38" width="35" height="11" rx="2" fill="#5390D9" />
+      <rect x="5" y="68" width="42" height="12" rx="2" fill="#5390D9" />
+    </g>
+    
+    <!-- n - structured with rounded joints -->
+    <g transform="rotate(1, 75, 50)">
+      <rect x="58" y="30" width="11" height="50" rx="2" fill="#48BFE3" />
+      <path d="M63 30 C63 30, 70 22, 82 22 C94 22, 100 30, 100 40 L100 80 L89 80 L89 42 C89 36, 86 32, 80 32 C74 32, 69 36, 69 40" 
+            fill="#48BFE3" />
+    </g>
+    
+    <!-- a - geometric with open counter -->
+    <g transform="rotate(-1, 125, 50)">
+      <path d="M108 58 C108 48, 114 40, 124 40 L124 30 C113 30, 104 37, 104 50 L104 68 C104 75, 110 82, 120 82 C130 82, 136 75, 136 68 L136 30 L125 30 L125 68 C125 72, 123 74, 120 74 C115 74, 112 72, 112 68 L108 58 Z" 
+            fill="#48BFE3" />
+      <rect x="125" y="28" width="11" height="52" rx="2" fill="#48BFE3" />
+    </g>
+    
+    <!-- b - bold, structured -->
+    <g transform="rotate(1.5, 170, 45)">
+      <rect x="148" y="5" width="11" height="75" rx="2" fill="#5E60CE" />
+      <path d="M159 38 C165 30, 172 28, 180 28 C192 28, 200 38, 200 54 C200 70, 192 80, 180 80 C172 80, 165 77, 159 70 Z M159 54 C159 64, 166 72, 176 72 C186 72, 191 64, 191 54 C191 44, 186 36, 176 36 C166 36, 159 44, 159 54 Z" 
+            fill="#5E60CE" />
+    </g>
+    
+    <!-- l - simple tall stroke with playful dot -->
+    <g transform="rotate(-1, 218, 45)">
+      <rect x="212" y="5" width="11" height="75" rx="2" fill="#5E60CE" />
+    </g>
+    
+    <!-- e - geometric with clean cut -->
+    <g transform="rotate(1, 255, 50)">
+      <path d="M234 54 C234 40, 243 28, 258 28 C273 28, 281 40, 281 52 L281 56 L245 56 C246 66, 252 72, 262 72 C268 72, 273 69, 276 66 L282 73 C277 78, 270 82, 261 82 C244 82, 234 70, 234 54 Z M245 47 L271 47 C270 39, 265 34, 258 34 C251 34, 246 39, 245 47 Z" 
+            fill="#48BFE3" />
+    </g>
+  </g>
+  
+  <!-- Playful accent - small underline swoosh -->
+  <path d="M200 160 C240 165, 350 168, 480 155" 
+        fill="none" stroke="#72EFDD" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+</svg>
