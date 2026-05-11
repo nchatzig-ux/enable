@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Able - Sleeping/Resting variation (for break time, night mode, idle states) -->
+  
+  <!-- Shadow/ground -->
+  <ellipse cx="100" cy="185" rx="50" ry="8" fill="#48BFE3" opacity="0.15" />
+  
+  <!-- Main body - slightly wider/flatter (relaxed/settled) -->
+  <path d="M40 152 C18 138, 12 100, 35 65 C48 44, 82 28, 115 30 C150 33, 180 55, 177 90 C175 115, 163 140, 148 155 C128 172, 62 170, 40 152 Z" 
+        fill="#48BFE3" />
+  
+  <!-- Body highlight -->
+  <path d="M60 57 C78 42, 108 35, 130 40 C145 44, 154 55, 152 64 C144 53, 122 46, 98 44 C80 43, 64 48, 60 57 Z" 
+        fill="#72EFDD" opacity="0.35" />
+  
+  <!-- Night cap (optional cute touch) -->
+  <path d="M60 52 C70 30, 100 18, 130 25 C140 28, 145 35, 140 40 C135 32, 110 26, 85 30 C72 33, 64 40, 60 52 Z" 
+        fill="#5E60CE" opacity="0.3" />
+  
+  <!-- Left eye - closed, peaceful -->
+  <path d="M72 82 C78 78, 88 78, 96 82" 
+        fill="none" stroke="#5E60CE" stroke-width="3" stroke-linecap="round" />
+  <!-- Eyelashes -->
+  <path d="M75 80 L74 77" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M84 77 L84 74" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M93 80 L94 77" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Right eye - closed, peaceful -->
+  <path d="M122 78 C128 74, 138 74, 146 78" 
+        fill="none" stroke="#5E60CE" stroke-width="3" stroke-linecap="round" />
+  <!-- Eyelashes -->
+  <path d="M125 76 L124 73" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M134 73 L134 70" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M143 76 L144 73" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Nose -->
+  <ellipse cx="110" cy="97" rx="4" ry="3" fill="#3AB8D8" />
+  
+  <!-- Peaceful sleeping smile -->
+  <path d="M97 112 C104 117, 118 117, 125 112" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Cheek blush - rosy from sleep -->
+  <ellipse cx="67" cy="98" rx="9" ry="6" fill="#80FFDB" opacity="0.45" />
+  <ellipse cx="152" cy="94" rx="9" ry="6" fill="#80FFDB" opacity="0.45" />
+  
+  <!-- ZZZ floating -->
+  <text x="155" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#5E60CE" opacity="0.7">Z</text>
+  <text x="168" y="38" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#5E60CE" opacity="0.5">Z</text>
+  <text x="178" y="28" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5E60CE" opacity="0.35">Z</text>
+  
+  <!-- Subtle breathing motion indicator -->
+  <ellipse cx="100" cy="140" rx="25" ry="3" fill="#72EFDD" opacity="0.15" />
+  
+  <!-- Stars/moon ambient -->
+  <circle cx="30" cy="30" r="2" fill="#80FFDB" opacity="0.4" />
+  <circle cx="45" cy="18" r="1.5" fill="#72EFDD" opacity="0.3" />
+  <circle cx="20" cy="45" r="1.5" fill="#80FFDB" opacity="0.3" />
+  <!-- Crescent moon -->
+  <path d="M180 55 C185 50, 188 55, 185 62 C182 68, 176 68, 174 63 C172 58, 175 53, 180 55 Z" 
+        fill="#80FFDB" opacity="0.4" />
+</svg>

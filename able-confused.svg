@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Able - Confused/Puzzled variation (for error states, tricky questions) -->
+  
+  <!-- Shadow/ground -->
+  <ellipse cx="100" cy="185" rx="45" ry="8" fill="#48BFE3" opacity="0.2" />
+  
+  <!-- Main body - slightly tilted -->
+  <path d="M47 152 C22 137, 14 97, 37 62 C52 40, 86 25, 116 28 C149 32, 176 53, 173 89 C171 112, 160 137, 144 153 C124 170, 71 168, 47 152 Z" 
+        fill="#48BFE3" />
+  
+  <!-- Body highlight -->
+  <path d="M63 54 C80 38, 107 32, 128 38 C143 43, 152 54, 150 64 C142 53, 121 45, 97 43 C79 42, 67 47, 63 54 Z" 
+        fill="#72EFDD" opacity="0.4" />
+  
+  <!-- Left eyebrow - one raised, one lowered for confusion -->
+  <path d="M72 67 C78 63, 88 64, 94 68" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Right eyebrow - raised high -->
+  <path d="M120 54 C126 48, 140 47, 148 52" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Left eye - slightly squinting -->
+  <ellipse cx="85" cy="83" rx="12" ry="13" fill="white" />
+  <ellipse cx="84" cy="84" rx="7" ry="7.5" fill="#5E60CE" />
+  <ellipse cx="84" cy="84" rx="4.5" ry="5" fill="#3A0CA3" />
+  <circle cx="87" cy="80" r="2.5" fill="white" />
+  
+  <!-- Right eye - wide open (asymmetric = confused) -->
+  <ellipse cx="137" cy="77" rx="15" ry="17" fill="white" />
+  <ellipse cx="138" cy="79" rx="8" ry="9" fill="#5E60CE" />
+  <ellipse cx="138" cy="79" rx="5" ry="6" fill="#3A0CA3" />
+  <circle cx="142" cy="74" r="3" fill="white" />
+  <circle cx="135" cy="82" r="1.5" fill="white" opacity="0.5" />
+  
+  <!-- Nose -->
+  <ellipse cx="110" cy="99" rx="4" ry="3" fill="#3AB8D8" />
+  
+  <!-- Mouth - wavy/uncertain line -->
+  <path d="M92 116 C98 120, 104 114, 112 118 C120 122, 126 115, 132 118" 
+        fill="none" stroke="#5E60CE" stroke-width="2.8" stroke-linecap="round" />
+  
+  <!-- Cheek blush -->
+  <ellipse cx="68" cy="102" rx="7" ry="4.5" fill="#80FFDB" opacity="0.35" />
+  <ellipse cx="155" cy="96" rx="7" ry="4.5" fill="#80FFDB" opacity="0.35" />
+  
+  <!-- Scratching head -->
+  <path d="M155 45 C160 38, 168 35, 172 38 C176 41, 174 48, 168 50 C164 52, 158 48, 155 45 Z" 
+        fill="#56CFE1" />
+  <!-- Fingers on head -->
+  <path d="M165 33 L163 28 M168 32 L167 27 M171 34 L171 29" 
+        fill="none" stroke="#56CFE1" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Question marks floating -->
+  <text x="170" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#5E60CE" opacity="0.6">?</text>
+  <text x="182" y="35" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#72EFDD" opacity="0.5">?</text>
+  
+  <!-- Swirl/spiral indicating confusion -->
+  <path d="M30 55 C32 48, 38 46, 42 50 C46 54, 44 60, 38 60 C34 60, 33 57, 35 55 C37 53, 40 54, 39 56" 
+        fill="none" stroke="#72EFDD" stroke-width="1.5" stroke-linecap="round" opacity="0.5" />
+</svg>

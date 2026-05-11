@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Able - Proud/Accomplished variation (for achievements, certificates) -->
+  
+  <!-- Shadow/ground -->
+  <ellipse cx="100" cy="185" rx="45" ry="8" fill="#48BFE3" opacity="0.2" />
+  
+  <!-- Main body - standing tall, chest out -->
+  <path d="M45 150 C20 135, 14 95, 38 58 C53 36, 87 20, 117 23 C151 27, 180 50, 177 87 C175 112, 163 138, 147 155 C127 172, 70 168, 45 150 Z" 
+        fill="#48BFE3" />
+  
+  <!-- Body highlight -->
+  <path d="M63 50 C80 34, 107 28, 128 34 C143 39, 153 50, 151 60 C143 49, 122 42, 98 40 C80 39, 67 44, 63 50 Z" 
+        fill="#72EFDD" opacity="0.4" />
+  
+  <!-- Cape/medal ribbon hint -->
+  <path d="M55 130 C50 125, 45 120, 48 115 C51 110, 58 112, 60 118 C62 124, 58 128, 55 130 Z" 
+        fill="#6930C3" opacity="0.3" />
+  
+  <!-- Left eyebrow - confident arch -->
+  <path d="M70 60 C76 55, 88 54, 95 58" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Right eyebrow - confident arch -->
+  <path d="M120 56 C126 51, 138 51, 145 55" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Left eye - confident, slightly narrowed with pride -->
+  <ellipse cx="85" cy="80" rx="13" ry="14" fill="white" />
+  <ellipse cx="87" cy="81" rx="7" ry="8" fill="#5E60CE" />
+  <ellipse cx="87" cy="81" rx="4.5" ry="5.5" fill="#3A0CA3" />
+  <circle cx="90" cy="77" r="2.5" fill="white" />
+  <circle cx="84" cy="84" r="1.5" fill="white" opacity="0.5" />
+  
+  <!-- Right eye - confident, slightly narrowed -->
+  <ellipse cx="135" cy="76" rx="13" ry="14" fill="white" />
+  <ellipse cx="137" cy="77" rx="7" ry="8" fill="#5E60CE" />
+  <ellipse cx="137" cy="77" rx="4.5" ry="5.5" fill="#3A0CA3" />
+  <circle cx="140" cy="73" r="2.5" fill="white" />
+  <circle cx="134" cy="80" r="1.5" fill="white" opacity="0.5" />
+  
+  <!-- Nose -->
+  <ellipse cx="110" cy="96" rx="4" ry="3" fill="#3AB8D8" />
+  
+  <!-- Confident/proud smile - closed, satisfied -->
+  <path d="M92 112 C102 122, 122 122, 134 112" 
+        fill="none" stroke="#5E60CE" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Cheek blush -->
+  <ellipse cx="68" cy="100" rx="8" ry="5" fill="#80FFDB" opacity="0.4" />
+  <ellipse cx="152" cy="95" rx="8" ry="5" fill="#80FFDB" opacity="0.4" />
+  
+  <!-- Hand on hip (confident pose) -->
+  <path d="M40 115 C35 110, 32 105, 35 100 C38 95, 44 98, 45 105 C46 110, 43 113, 40 115 Z" 
+        fill="#56CFE1" />
+  
+  <!-- Thumbs up with other hand -->
+  <path d="M162 60 C167 48, 175 44, 179 48 C183 52, 180 62, 174 66 C170 69, 165 65, 162 60 Z" 
+        fill="#56CFE1" />
+  <!-- Thumb -->
+  <path d="M175 42 C178 36, 182 35, 184 38 C186 41, 183 46, 180 48" 
+        fill="#56CFE1" />
+  
+  <!-- Medal/star badge -->
+  <circle cx="110" cy="145" r="12" fill="#80FFDB" stroke="#5E60CE" stroke-width="1.5" />
+  <path d="M110 137 L112 142 L117 143 L113 146 L114 151 L110 149 L106 151 L107 146 L103 143 L108 142 Z" 
+        fill="#5E60CE" />
+  
+  <!-- Ribbon -->
+  <path d="M100 145 L95 160 L100 155 L105 160 L100 145" fill="#6930C3" opacity="0.5" />
+  <path d="M120 145 L125 160 L120 155 L115 160 L120 145" fill="#6930C3" opacity="0.5" />
+  
+  <!-- Sparkles around -->
+  <path d="M45 40 L46 36 L48 40 L52 38 L49 42 L52 44 L48 44 L47 48 L45 44 L42 45 L44 42 L41 40 Z" 
+        fill="#80FFDB" opacity="0.6" />
+  <path d="M165 25 L166 22 L167 25 L170 24 L168 26 L170 28 L167 27 L166 30 L165 27 L162 28 L164 26 L162 24 Z" 
+        fill="#72EFDD" opacity="0.5" />
+  <circle cx="175" cy="80" r="2" fill="#80FFDB" opacity="0.4" />
+  <circle cx="30" cy="65" r="2" fill="#72EFDD" opacity="0.4" />
+</svg>

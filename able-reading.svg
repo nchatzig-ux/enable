@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Able - Reading/Studying variation (perfect for learning content) -->
+  
+  <!-- Shadow/ground -->
+  <ellipse cx="100" cy="185" rx="45" ry="8" fill="#48BFE3" opacity="0.2" />
+  
+  <!-- Main body - slightly leaning forward towards book -->
+  <path d="M48 152 C23 137, 15 97, 38 62 C53 40, 87 25, 117 28 C150 32, 175 54, 172 90 C170 113, 158 137, 142 153 C122 170, 72 168, 48 152 Z" 
+        fill="#48BFE3" />
+  
+  <!-- Body highlight -->
+  <path d="M63 53 C80 37, 107 31, 128 37 C143 42, 152 53, 150 63 C142 52, 121 44, 97 42 C79 41, 67 46, 63 53 Z" 
+        fill="#72EFDD" opacity="0.4" />
+  
+  <!-- Left eyebrow - focused, slightly down -->
+  <path d="M72 63 C78 60, 88 60, 94 63" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Right eyebrow - focused -->
+  <path d="M122 60 C128 57, 138 57, 144 60" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Left eye - looking down at book -->
+  <ellipse cx="85" cy="82" rx="13" ry="15" fill="white" />
+  <ellipse cx="84" cy="86" rx="7" ry="8" fill="#5E60CE" />
+  <ellipse cx="84" cy="86" rx="4.5" ry="5.5" fill="#3A0CA3" />
+  <circle cx="87" cy="82" r="2.5" fill="white" />
+  <circle cx="82" cy="89" r="1.5" fill="white" opacity="0.5" />
+  
+  <!-- Right eye - looking down at book -->
+  <ellipse cx="135" cy="78" rx="13" ry="15" fill="white" />
+  <ellipse cx="134" cy="82" rx="7" ry="8" fill="#5E60CE" />
+  <ellipse cx="134" cy="82" rx="4.5" ry="5.5" fill="#3A0CA3" />
+  <circle cx="137" cy="78" r="2.5" fill="white" />
+  <circle cx="132" cy="85" r="1.5" fill="white" opacity="0.5" />
+  
+  <!-- Nose -->
+  <ellipse cx="110" cy="98" rx="4" ry="3" fill="#3AB8D8" />
+  
+  <!-- Slight content smile while reading -->
+  <path d="M97 113 C105 120, 118 120, 128 113" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Cheek blush -->
+  <ellipse cx="68" cy="100" rx="7" ry="4.5" fill="#80FFDB" opacity="0.35" />
+  <ellipse cx="150" cy="95" rx="7" ry="4.5" fill="#80FFDB" opacity="0.35" />
+  
+  <!-- Book being held -->
+  <!-- Left page -->
+  <path d="M60 140 C65 135, 90 132, 105 135 L105 170 C90 167, 65 170, 60 175 Z" 
+        fill="white" stroke="#5390D9" stroke-width="1.5" />
+  <!-- Right page -->
+  <path d="M105 135 C120 132, 145 135, 150 140 L150 175 C145 170, 120 167, 105 170 Z" 
+        fill="#F8FDFF" stroke="#5390D9" stroke-width="1.5" />
+  <!-- Book spine -->
+  <line x1="105" y1="135" x2="105" y2="170" stroke="#5390D9" stroke-width="2" />
+  <!-- Text lines on pages -->
+  <line x1="70" y1="145" x2="98" y2="143" stroke="#48BFE3" stroke-width="1.5" stroke-linecap="round" opacity="0.5" />
+  <line x1="72" y1="152" x2="95" y2="150" stroke="#48BFE3" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+  <line x1="74" y1="159" x2="92" y2="157" stroke="#48BFE3" stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+  <line x1="112" y1="143" x2="140" y2="145" stroke="#48BFE3" stroke-width="1.5" stroke-linecap="round" opacity="0.5" />
+  <line x1="114" y1="150" x2="138" y2="152" stroke="#48BFE3" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+  <line x1="116" y1="157" x2="135" y2="159" stroke="#48BFE3" stroke-width="1.5" stroke-linecap="round" opacity="0.3" />
+  
+  <!-- Hands holding book -->
+  <path d="M55 145 C50 140, 48 135, 52 132 C56 129, 60 132, 62 138" 
+        fill="#56CFE1" />
+  <path d="M155 145 C160 140, 162 135, 158 132 C154 129, 150 132, 148 138" 
+        fill="#56CFE1" />
+  
+  <!-- Knowledge sparkles floating up -->
+  <circle cx="45" cy="50" r="2" fill="#72EFDD" opacity="0.5" />
+  <circle cx="160" cy="40" r="2.5" fill="#80FFDB" opacity="0.5" />
+  <circle cx="170" cy="55" r="1.5" fill="#72EFDD" opacity="0.4" />
+  <path d="M35 40 L36 36 L38 40 L42 38 L39 42 L42 44 L38 44 L37 48 L35 44 L32 45 L34 42 L31 40 Z" 
+        fill="#80FFDB" opacity="0.5" />
+</svg>

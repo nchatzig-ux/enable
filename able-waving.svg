@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Able - Waving/Greeting variation (perfect for welcome screens) -->
+  
+  <!-- Shadow/ground -->
+  <ellipse cx="100" cy="185" rx="45" ry="8" fill="#48BFE3" opacity="0.2" />
+  
+  <!-- Main body -->
+  <path d="M45 150 C20 135, 12 95, 35 60 C50 38, 85 22, 115 25 C150 29, 178 52, 175 88 C173 112, 162 138, 145 155 C125 172, 70 168, 45 150 Z" 
+        fill="#48BFE3" />
+  
+  <!-- Body highlight -->
+  <path d="M65 55 C80 38, 105 32, 125 38 C140 43, 150 55, 148 65 C140 55, 120 45, 95 43 C78 42, 68 48, 65 55 Z" 
+        fill="#72EFDD" opacity="0.4" />
+  
+  <!-- Movement lines from waving -->
+  <path d="M170 30 C175 28, 178 26, 180 28" fill="none" stroke="#80FFDB" stroke-width="2" stroke-linecap="round" opacity="0.6" />
+  <path d="M175 38 C180 36, 183 34, 185 36" fill="none" stroke="#72EFDD" stroke-width="1.5" stroke-linecap="round" opacity="0.5" />
+  <path d="M172 22 C177 20, 180 18, 182 20" fill="none" stroke="#80FFDB" stroke-width="1.5" stroke-linecap="round" opacity="0.4" />
+  
+  <!-- Left eyebrow - friendly -->
+  <path d="M70 62 C76 57, 88 56, 95 60" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Right eyebrow - slightly raised -->
+  <path d="M120 57 C126 52, 138 52, 145 57" 
+        fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+  
+  <!-- Left eye - friendly wink (closed) -->
+  <path d="M74 82 C80 76, 90 76, 96 82" 
+        fill="none" stroke="#5E60CE" stroke-width="3" stroke-linecap="round" />
+  <!-- Wink lashes -->
+  <path d="M77 79 L75 76" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M85 76 L85 73" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  <path d="M93 79 L95 76" fill="none" stroke="#5E60CE" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Right eye - open, warm -->
+  <ellipse cx="135" cy="78" rx="14" ry="16" fill="white" />
+  <ellipse cx="138" cy="80" rx="8" ry="9" fill="#5E60CE" />
+  <ellipse cx="138" cy="80" rx="5" ry="6" fill="#3A0CA3" />
+  <circle cx="142" cy="75" r="3" fill="white" />
+  <circle cx="135" cy="83" r="1.5" fill="white" opacity="0.6" />
+  
+  <!-- Nose -->
+  <ellipse cx="110" cy="100" rx="4" ry="3" fill="#3AB8D8" />
+  
+  <!-- Warm smile -->
+  <path d="M90 115 C100 126, 122 126, 135 115" 
+        fill="none" stroke="#5E60CE" stroke-width="3" stroke-linecap="round" />
+  <path d="M95 117 C103 123, 120 123, 130 117" 
+        fill="#3A0CA3" opacity="0.12" />
+  
+  <!-- Cheek blush -->
+  <ellipse cx="70" cy="102" rx="8" ry="5" fill="#80FFDB" opacity="0.4" />
+  <ellipse cx="150" cy="98" rx="8" ry="5" fill="#80FFDB" opacity="0.4" />
+  
+  <!-- Big enthusiastic wave - arm extended high -->
+  <path d="M160 50 C165 35, 175 28, 180 32 C185 36, 183 48, 176 53 C172 56, 165 52, 160 50 Z" 
+        fill="#56CFE1" />
+  <!-- Hand/palm open -->
+  <path d="M175 25 C178 18, 183 16, 186 20 C189 24, 186 30, 182 33" 
+        fill="#56CFE1" />
+  <path d="M180 20 C182 14, 186 13, 188 16 C190 19, 188 24, 185 26" 
+        fill="#56CFE1" />
+  <path d="M172 28 C173 22, 177 20, 179 23 C181 26, 179 30, 176 31" 
+        fill="#56CFE1" />
+  
+  <!-- "Hi!" text bubble -->
+  <rect x="155" y="2" width="35" height="18" rx="9" fill="white" stroke="#72EFDD" stroke-width="1.5" />
+  <text x="172" y="14" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#5E60CE" text-anchor="middle">Hi!</text>
+  <path d="M165 20 L162 25 L169 20" fill="white" stroke="#72EFDD" stroke-width="1.5" />
+</svg>
