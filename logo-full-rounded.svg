@@ -1,45 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" width="520" height="200">
-  <!-- Enable Full Logo - Rounded/Soft Typography -->
+  <!-- Enable Full Logo - Rounded/Soft Typography with improved Able -->
   
-  <!-- Able Mascot (scaled down) -->
-  <g transform="translate(10, 15) scale(0.85)">
+  <!-- Able Mascot (scaled to fit alongside wordmark) -->
+  <g transform="translate(5, 10) scale(0.9)">
+    <!-- Shadow/ground -->
+    <ellipse cx="100" cy="185" rx="40" ry="6" fill="#48BFE3" opacity="0.15" />
+    
     <!-- Main body -->
-    <path d="M60 140 C30 130, 20 95, 40 65 C55 40, 90 30, 120 35 C150 40, 175 60, 170 90 C167 110, 155 130, 140 145 C120 162, 80 155, 60 140 Z" 
+    <path d="M45 150 C20 135, 12 95, 35 60 C50 38, 85 22, 115 25 C150 29, 178 52, 175 88 C173 112, 162 138, 145 155 C125 172, 70 168, 45 150 Z" 
           fill="#48BFE3" />
     
+    <!-- Body highlight -->
+    <path d="M65 55 C80 38, 105 32, 125 38 C140 43, 150 55, 148 65 C140 55, 120 45, 95 43 C78 42, 68 48, 65 55 Z" 
+          fill="#72EFDD" opacity="0.4" />
+    
     <!-- Movement trails -->
-    <path d="M35 105 C20 100, 15 85, 25 72 C30 65, 28 75, 22 82 C16 92, 20 100, 35 105 Z" 
+    <path d="M25 110 C10 105, 5 88, 15 75 C22 66, 18 80, 12 88 C6 98, 12 108, 25 110 Z" 
           fill="#72EFDD" opacity="0.7" />
-    <path d="M28 120 C18 118, 14 110, 18 102 C20 98, 19 105, 16 109 C13 114, 16 118, 28 120 Z" 
+    <path d="M18 130 C8 127, 4 118, 9 108 C12 103, 10 112, 7 117 C4 123, 8 128, 18 130 Z" 
           fill="#80FFDB" opacity="0.5" />
     
+    <!-- Left eyebrow -->
+    <path d="M70 62 C76 57, 88 56, 95 60" 
+          fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+    
+    <!-- Right eyebrow -->
+    <path d="M120 58 C126 53, 138 53, 145 58" 
+          fill="none" stroke="#5E60CE" stroke-width="2.5" stroke-linecap="round" />
+    
     <!-- Left eye -->
-    <ellipse cx="90" cy="82" rx="10" ry="12" fill="white" />
-    <ellipse cx="92" cy="84" rx="5" ry="6" fill="#5E60CE" />
-    <circle cx="94" cy="81" r="2" fill="white" />
+    <ellipse cx="85" cy="82" rx="14" ry="16" fill="white" />
+    <ellipse cx="88" cy="84" rx="8" ry="9" fill="#5E60CE" />
+    <ellipse cx="88" cy="84" rx="5" ry="6" fill="#3A0CA3" />
+    <circle cx="92" cy="79" r="3" fill="white" />
+    <circle cx="85" cy="87" r="1.5" fill="white" opacity="0.6" />
     
     <!-- Right eye -->
-    <ellipse cx="130" cy="78" rx="10" ry="12" fill="white" />
-    <ellipse cx="132" cy="80" rx="5" ry="6" fill="#5E60CE" />
-    <circle cx="134" cy="77" r="2" fill="white" />
+    <ellipse cx="135" cy="78" rx="14" ry="16" fill="white" />
+    <ellipse cx="138" cy="80" rx="8" ry="9" fill="#5E60CE" />
+    <ellipse cx="138" cy="80" rx="5" ry="6" fill="#3A0CA3" />
+    <circle cx="142" cy="75" r="3" fill="white" />
+    <circle cx="135" cy="83" r="1.5" fill="white" opacity="0.6" />
+    
+    <!-- Nose -->
+    <ellipse cx="110" cy="100" rx="4" ry="3" fill="#3AB8D8" />
     
     <!-- Smile -->
-    <path d="M95 108 C105 120, 125 120, 135 108" 
-          fill="none" stroke="#5E60CE" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M90 115 C100 128, 125 128, 138 115" 
+          fill="none" stroke="#5E60CE" stroke-width="3" stroke-linecap="round" />
+    <path d="M95 117 C103 125, 122 125, 133 117" 
+          fill="#3A0CA3" opacity="0.15" />
+    
+    <!-- Cheek blush -->
+    <ellipse cx="70" cy="105" rx="8" ry="5" fill="#80FFDB" opacity="0.4" />
+    <ellipse cx="150" cy="100" rx="8" ry="5" fill="#80FFDB" opacity="0.4" />
     
     <!-- Wave hand -->
-    <path d="M160 60 C165 50, 172 48, 176 52 C180 56, 178 64, 172 68 C168 71, 163 68, 160 60 Z" 
+    <path d="M165 55 C170 42, 180 38, 185 43 C190 48, 187 58, 180 63 C175 67, 168 63, 165 55 Z" 
+          fill="#56CFE1" />
+    <path d="M180 38 C183 32, 188 30, 190 34 C192 38, 189 42, 185 43" 
           fill="#56CFE1" />
     
     <!-- Speech dots -->
-    <circle cx="175" cy="42" r="4" fill="#72EFDD" />
-    <circle cx="182" cy="34" r="3" fill="#80FFDB" />
-    <circle cx="186" cy="25" r="2.5" fill="#80FFDB" opacity="0.7" />
+    <circle cx="183" cy="28" r="4.5" fill="#72EFDD" />
+    <circle cx="190" cy="18" r="3.5" fill="#80FFDB" />
+    <circle cx="194" cy="9" r="2.5" fill="#80FFDB" opacity="0.7" />
   </g>
   
   <!-- "Enable" wordmark - Rounded/Soft style -->
-  <!-- Custom rounded letterforms with soft, bubbly character -->
-  <g transform="translate(195, 60)">
+  <g transform="translate(200, 60)">
     <!-- E -->
     <path d="M20 10 C10 10, 5 15, 5 25 L5 65 C5 75, 10 80, 20 80 L45 80 C50 80, 52 77, 52 74 C52 71, 50 68, 45 68 L20 68 C18 68, 17 67, 17 65 L17 50 L40 50 C45 50, 47 47, 47 44 C47 41, 45 38, 40 38 L17 38 L17 25 C17 23, 18 22, 20 22 L45 22 C50 22, 52 19, 52 16 C52 13, 50 10, 45 10 Z" 
           fill="#5390D9" />
